@@ -1,26 +1,14 @@
 <resources>
     <string name="app_name">Calculator</string>
-    <string name="zero">0</string>
-    <string name="btnPlus">+</string>
-    <string name="btnSqrt">\u221A</string>
-    <string name="btnMult">\u00D7</string>
-    <string name="btnDiv">\u00F7</string>
-    <string name="btnNeg">\u00B1</string>
-    <string name="btnClear">C</string>
-    <string name="btnPerc">%</string>
-    <string name="btnDec">.</string>
-    <string name="btnEq">=</string>
-    <string name="btnSub">-</string>
-    <string name="btn0">0</string>
-    <string name="btn1">1</string>
-    <string name="btn2">2</string>
-    <string name="btn3">3</string>
-    <string name="btn4">4</string>
-    <string name="btn5">5</string>
-    <string name="btn6">6</string>
-    <string name="btn7">7</string>
-    <string name="btn8">8</string>
-    <string name="btn9">9</string>
-
+    <string-array name="btnText">
+        <item>7</item><item>8</item><item>9</item><item>\u221A</item><item>C</item><item>4</item><item>5</item><item>6</item><item>\u00F7</item><item>%</item>
+        <item>1</item><item>2</item><item>3</item><item>\u00D7</item><item>-</item><item>\u00B1</item>
+        <item>0</item><item>.</item><item>+</item><item>=</item>
+    </string-array>
+    <string-array name="btnTag">
+        <item>btn7</item><item>btn8</item><item>btn9</item><item>btnSqrt</item><item>btnClear</item><item>btn4</item><item>btn5</item><item>btn6</item><item>btnDiv</item><item>btnPerc</item>
+        <item>btn1</item><item>btn2</item><item>btn3</item><item>btnMult</item><item>btnSub</item><item>btnNeg</item>
+        <item>btn0</item><item>btnDec</item><item>btnPlus</item><item>btnEq</item>
+    </string-array>
 
 </resources>
